@@ -71,8 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
           const isOpen = menu.classList.toggle('open');
           document.body.classList.toggle('menu-open', isOpen);
           btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-          // of of those where take in js help based fourums
-          // Add visual feedback
+         
+          //  visual feedback
           if (isOpen) {
             btn.style.background = 'rgba(255,255,255,0.15)';
             btn.style.borderColor = 'rgba(255,255,255,0.5)';
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         });
 
-        // Close menu when clicking outside or on overlay
+       
         document.addEventListener('click', (e) => {
           if (!header.contains(e.target) && menu.classList.contains('open') && !e.target.closest('.meny')) {
             menu.classList.remove('open');
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         });
 
-        // Close menu on escape key
+        // esc es escaped elelellellelelel
         document.addEventListener('keydown', (e) => {
           if (e.key === 'Escape' && menu.classList.contains('open')) {
             menu.classList.remove('open');
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // Handle scroll effect on header
+    // rhsv nls dnlfhn vcka 
     const onScroll = () => {
       const hdr = document.querySelector('.krye');
       if (!hdr) return;
@@ -119,4 +119,5 @@ document.addEventListener('DOMContentLoaded', () => {
   } catch (e) {
     console.error('nav.js error', e);
   }
+
 });
