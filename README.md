@@ -3,7 +3,8 @@
 Të gjitha emrat, profilet, personat, fakultetet dhe struktura organizative të paraqitura në këtë webfaqe janë **të gjeneruara**.
 
 Ky projekt është krijuar **vetëm për qëllime mësimore dhe demonstrative** dhe **nuk përfaqëson** strukturën reale.
-
+## **Editori**
+  WEB STROM 2023.1
 
 # 🎓 Faqja e Universitetit të Vushtrrit
 
@@ -219,12 +220,6 @@ Testet responsive:
 ## 📄 Licenca
 
 **Open Source**
-
-## 👥 Kontributorit
-
-- **Web Development**: Stafi i IT
-- **Design**: Ekipi i dizajnit
-- **Përmbajtja**: Departamenti i Komunikimit
 
 ---
 
