@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e47ce7f-0e0d-4712-8b45-72b632a93c26" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/apliko.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/departamente.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/departamentet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interactive-bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lajmet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logimiieventev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/aigenretetext.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo-manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ne.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paneliiadminit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pemaeuniveritetit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projektet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stafi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style[krejtktu].css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styledepartament.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web1.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="37WiFjCrTcIeamjrfS4XlevuRVA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.departamentet.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.forgot.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Coverage&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/besmi/OneDrive/Desktop/website&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\besmi\OneDrive\Desktop\website\data" />
+      <recent name="C:\Users\besmi\OneDrive\Desktop\website\.idea" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.home.html">
+    <configuration name="departamentet.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="37cae5b9-e8b2-4949-9172-aafa37fbc09c" uri="http://localhost:63342/website/html/departamentet.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="forgot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="37cae5b9-e8b2-4949-9172-aafa37fbc09c" uri="http://localhost:63342/website/html/forgot.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="37cae5b9-e8b2-4949-9172-aafa37fbc09c" uri="http://localhost:63342/website/html/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="JavaScript Debug.departamentet.html" />
+        <item itemvalue="JavaScript Debug.forgot.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e47ce7f-0e0d-4712-8b45-72b632a93c26" name="Changes" comment="" />
+      <created>1767025128460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767025128460</updated>
+      <workItem from="1767025131785" duration="493000" />
+      <workItem from="1767030062052" duration="1204000" />
+      <workItem from="1767031324455" duration="185000" />
+      <workItem from="1767082393648" duration="1618000" />
+      <workItem from="1767087525349" duration="1012000" />
+      <workItem from="1767091336769" duration="28000" />
+      <workItem from="1768290888553" duration="35000" />
+      <workItem from="1768296760523" duration="19000" />
+      <workItem from="1768417027357" duration="3474000" />
+      <workItem from="1768473672310" duration="2086000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/website$home_html.dat" NAME="home.html Coverage Results" MODIFIED="1768417774244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
