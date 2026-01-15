@@ -1,9 +1,9 @@
-// Check if user is logged in and is a professor
+// ali a je ti
 document.addEventListener('DOMContentLoaded', () => {
 	const blockedMessage = document.getElementById('blockedMessage');
 	const portalContent = document.getElementById('portalContent');
 
-	// Get user from localStorage or sessionStorage
+	// let userInfo =localStorage sessionStorage
 	let userInfo = localStorage.getItem('currentUser');
 	if (!userInfo) {
 		userInfo = sessionStorage.getItem('currentUser');
@@ -15,17 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
 			const role = user.role || 'student';
 
 			if (role === 'professor' || role === 'prof') {
-				// Show portal content
-				portalContent.style.display = 'block';
+								portalContent.style.display = 'block';
 				blockedMessage.style.display = 'none';
-
-				// Populate user info
 				document.getElementById('userGreeting').textContent = `Mirë se vini, Prof. ${user.name}!`;
 				document.getElementById('fullName').textContent = user.name;
 				document.getElementById('userEmail').textContent = user.email;
 				document.getElementById('loginTime').textContent = new Date().toLocaleString('sq-AL');
 			} else {
-				// Not a professor - show blocked message
+				// sej n ar tane
 				blockedMessage.classList.add('show');
 				portalContent.style.display = 'none';
 			}
@@ -35,12 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
 			portalContent.style.display = 'none';
 		}
 	} else {
-		// Not logged in - show blocked message
+	
 		blockedMessage.classList.add('show');
 		portalContent.style.display = 'none';
 	}
 
-	// Tab switching
+
 	document.querySelectorAll('.tab-btn').forEach(btn => {
 		btn.addEventListener('click', () => {
 			document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -52,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 });
 
-// Functions
+
 function selectKurs(kursId) {
 	const kursNames = {
 		1: 'Algoritmet dhe Strukturat e të Dhënave',
@@ -81,3 +78,4 @@ function logout() {
 		window.location.href = 'loginpage.html';
 	}
 }
+
