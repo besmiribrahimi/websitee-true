@@ -1,0 +1,58 @@
+﻿<!doctype html>
+<html lang="sq">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harrova fjalÃ«kalimin â€” Universiteti i Vushtrris</title>
+  <link rel="stylesheet" href="../css/style[krejtktu].css">
+    <link rel="stylesheet" href="../css/auth.css">
+  <link rel="stylesheet" href="../css/logincss.css">
+</head>
+<body class="bi">
+  <header class="kryebi">
+    <div class="identitetbi">
+      <div class="logo-standbi">
+        <img src="../foto/Untitled.jpg" alt="Logo" class="logo-placeholderbi">
+      </div>
+      <div class="titull-tekstbi">
+        <h1>Universiteti i Vushtrris</h1>
+      </div>
+    </div>
+    <nav class="menybi" aria-label="Menyja kryesore">
+      <ul>
+        <li><a href="web1.html">Kryefaqja</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pjesabi">
+    <div class="login-containerbi">
+      <div class="login-cardbi">
+        <div class="login-headerbi">
+          <div class="login-logobi">ðŸ”</div>
+          <h1>Rivendos fjalÃ«kalimin</h1>
+          <p>Shkruajni emrin e pÃ«rdoruesit ose emailin dhe do tÃ« gjenerojmÃ« njÃ« kod rikthimi (pÃ«r testim lokal).</p>
+        </div>
+
+        <div id="forgotMsg" class="error-messagebi" style="display:none;"></div>
+        <div id="forgotSuccess" class="success-messagebi" style="display:none;"></div>
+
+        <form id="forgotForm" class="login-formbi">
+          <div class="form-groupbi">
+            <label for="identifier">Emri i pÃ«rdoruesit ose Email</label>
+            <input id="identifier" name="identifier" placeholder="username ose email" autocomplete="off">
+          </div>
+          <button class="login-buttonbi" type="submit">KÃ«rko kodin e rikthimit</button>
+        </form>
+
+        <div class="login-footerbi" style="margin-top:18px;">
+          <p>Kthehu te <a href="loginpage.html">KyÃ§ja</a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+// inside
+  <script src="../js/forgot-password.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

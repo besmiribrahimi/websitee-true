@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html lang="sq">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rivendos fjalÃ«kalimin â€” Universiteti i Vushtrris</title>
+  <link rel="stylesheet" href="../css/style[krejtktu].css">
+    <link rel="stylesheet" href="../css/auth.css">
+  <link rel="stylesheet" href="../css/logincss.css">
+</head>
+<body class="bi">
+  <header class="kryebi">
+    <div class="identitetbi">
+      <div class="logo-standbi">
+        <img src="../foto/Untitled.jpg" alt="Logo" class="logo-placeholderbi">
+      </div>
+      <div class="titull-tekstbi">
+        <h1>Universiteti i Vushtrris</h1>
+      </div>
+    </div>
+  </header>
+
+  <main class="pjesabi">
+    <div class="login-containerbi">
+      <div class="login-cardbi">
+        <div class="login-headerbi">
+          <div class="login-logobi">ðŸ”‘</div>
+          <h1>Vendos fjalÃ«kalimin e ri</h1>
+          <p>Futni emrin e pÃ«rdoruesit, kodin e rikthimit dhe fjalÃ«kalimin e ri.</p>
+        </div>
+
+        <div id="resetMsg" class="error-messagebi" style="display:none;"></div>
+        <div id="resetSuccess" class="success-messagebi" style="display:none;"></div>
+
+        <form id="resetForm" class="login-formbi">
+          <div class="form-groupbi">
+            <label for="r_user">Emri i pÃ«rdoruesit</label>
+            <input id="r_user" name="r_user" placeholder="username" autocomplete="off">
+          </div>
+          <div class="form-groupbi">
+            <label for="r_code">Kodi i rikthimit</label>
+            <input id="r_code" name="r_code" placeholder="6-shifror" autocomplete="off">
+          </div>
+          <div class="form-groupbi">
+            <label for="r_password">FjalÃ«kalimi i ri</label>
+            <input id="r_password" name="r_password" type="password" placeholder="FjalÃ«kalimi i ri">
+          </div>
+          <button class="login-buttonbi" type="submit">Rivendos fjalÃ«kalimin</button>
+        </form>
+
+        <div class="login-footerbi" style="margin-top:18px;">
+          <p>Kthehu te <a href="loginpage.html">KyÃ§ja</a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/reset-password.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="sq">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rivendos fjalëkalimin — Universiteti i Vushtrris</title>
+  <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+<body class="bi">
+  <header class="krye">
+    <div class="identitet">
+      <div class="logo-stand">
+        <img src="../foto/Untitled.jpg" alt="Logo" class="logo-placeholder">
+      </div>
+      <div class="titull-tekst">
+        <h1>Universiteti i Vushtrris</h1>
+        <div class="nenshkronje">Arsim, Kërkim dhe Zhvillim</div>
+      </div>
+    </div>
+    <nav class="meny" aria-label="Menyja kryesore">
+      <ul>
+        <li><a href="web1.html">Kryefaqja</a></li>
+        <li><a href="ne.html">Rreth Nesh</a></li>
+        <li><a href="departamentet.html">Departamentet</a></li>
+        <li><a href="hiearkija.html">Hierarkia</a></li>
+        <li><a href="stafi.html">Stafi</a></li>
+        <li><a href="projektet.html">Projektet</a></li>
+        <li><a href="apliko.html">Apliko</a></li>
+        <li><a href="lajmet.html">Lajmet</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="loginpage.html">Kyçu</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <button class="menu-toggle" aria-label="Hapni menynë" aria-expanded="false">
+    <span>☰</span>
+  </button>
+
+  <main class="pjesa">
+    <div class="login-container">
+      <div class="login-card">
+        <div class="login-header">
+          <div class="login-logo">🔑</div>
+          <h1>Vendos fjalëkalimin e ri</h1>
+          <p>Futni emrin e përdoruesit, kodin e rikthimit dhe fjalëkalimin e ri.</p>
+        </div>
+
+        <div id="resetMsg" class="error-message" style="display:none;"></div>
+        <div id="resetSuccess" class="success-message" style="display:none;"></div>
+
+        <form id="resetForm" class="login-form">
+          <div class="form-group">
+            <label for="r_user">Emri i përdoruesit</label>
+            <input id="r_user" name="r_user" placeholder="username" autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="r_code">Kodi i rikthimit</label>
+            <input id="r_code" name="r_code" placeholder="6-shifror" autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="r_password">Fjalëkalimi i ri</label>
+            <input id="r_password" name="r_password" type="password" placeholder="Fjalëkalimi i ri">
+          </div>
+          <button class="login-button" type="submit">Rivendos fjalëkalimin</button>
+        </form>
+
+        <div class="login-footer" style="margin-top:18px;">
+          <p>Kthehu te <a href="loginpage.html">Kyçja</a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/reset-password.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>
+

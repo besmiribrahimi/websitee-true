@@ -1,0 +1,86 @@
+/* Pema.html - Tree/Organization Chart Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Merriweather:wght@700&display=swap');
+
+:root {
+  --blu-kryesor: #0b63b7;
+  --blu-e-errt: #063a73;
+  --bardh: #ffffff;
+  --tekst: #102131;
+  --accent: #0f4fb0;
+}
+
+/* Tree container */
+.pema-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.pema-title {
+  color: var(--blu-e-errt);
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Tree structure */
+.organization-tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.tree-level {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tree-node {
+  background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(251,253,255,1));
+  border: 1px solid rgba(11, 99, 183, 0.08);
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 200px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(11, 99, 183, 0.06);
+  transition: all .28s cubic-bezier(.2, .9, .2, 1);
+}
+
+.tree-node:hover {
+  border-color: rgba(11, 99, 183, 0.15);
+  box-shadow: 0 12px 32px rgba(11, 99, 183, 0.12);
+  transform: translateY(-4px);
+}
+
+.node-title {
+  color: var(--blu-e-errt);
+  font-size: 1.1rem;
+  margin: 0 0 8px 0;
+  font-weight: 700;
+}
+
+.node-subtitle {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@media(max-width: 700px) {
+  .pema-title {
+    font-size: 1.5rem;
+  }
+  
+  .tree-level {
+    gap: 10px;
+  }
+  
+  .tree-node {
+    min-width: 160px;
+    padding: 16px;
+  }
+}

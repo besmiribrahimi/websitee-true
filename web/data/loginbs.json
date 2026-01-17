@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "username": "besmir",
+      "password": "admin1234",
+      "email": "besmiribr77p@gmail.com",
+      "name": "Besmir Ibrahimi",
+      "role": "student"
+    },
+    {
+      "username": "student1",
+      "password": "password123",
+      "email": "student1@universiteti.com",
+      "name": "Ardit Kelmendi",
+      "role": "student"
+    },
+    {
+      "username": "student2",
+      "password": "pass123",
+      "email": "student2@universiteti.com",
+      "name": "Marigona Hoxhaj",
+      "role": "student"
+    },
+    {
+      "username": "prof1",
+      "password": "prof123",
+      "email": "prof1@universiteti.com",
+      "name": "Prof. Dr. Albin Krasniqi",
+      "role": "professor"
+    },
+    {
+      "username": "prof2",
+      "password": "prof123",
+      "email": "prof2@universiteti.com",
+      "name": "Prof. Dr. Shkelzen Kelmendi",
+      "role": "professor"
+    },
+    {
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@universiteti.com",
+      "name": "Admin User",
+      "role": "admin"
+    }
+  ]
+}

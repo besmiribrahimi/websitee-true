@@ -1,0 +1,133 @@
+﻿<!doctype html>
+<html lang="sq">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KyÃ§je â€” Universiteti i Vushtrris</title>
+	<link rel="stylesheet" href="../css/style[krejtktu].css">
+		<link rel="stylesheet" href="../css/auth.css">
+	<link rel="stylesheet" href="../css/logincss.css">
+</head>
+<body class="bi">
+	<header class="kryebi">
+		<div class="identitetbi">
+			<div class="logo-standbi">
+				<img src="../foto/Untitled.jpg" alt="Logo" class="logo-placeholderbi">
+			</div>
+			<div class="titull-tekstbi">
+				<h1>Universiteti i Vushtrris</h1>
+				<div class="nenshkronjebi">Arsim, KÃ«rkim dhe Zhvillim</div>
+			</div>
+		</div>
+		<nav class="menybi" aria-label="Menyja kryesore">
+			<ul>
+				<li><a href="web1.html">Kryefaqja</a></li>
+				<li><a href="ne.html">Rreth Nesh</a></li>
+				<li><a href="departamentet.html">Departamentet</a></li>
+				<li><a href="hiearkija.html">Hierarkia</a></li>
+				<li><a href="stafi.html">Stafi</a></li>
+				<li><a href="projektet.html">Projektet</a></li>
+				<li><a href="apliko.html">Apliko</a></li>
+				<li><a href="lajmet.html">Lajmet</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="loginpage.html">KyÃ§ja</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="pjesabi">
+	<div class="login-containerbi">
+		<div class="login-cardbi">
+			<div class="login-headerbi">
+				<div class="login-logobi">ðŸŽ“</div>
+				<h1>KyÃ§ja nÃ« Sistem</h1>
+				<p>Universiteti i Vushtrris</p>
+			</div>
+
+			<div id="errorMessage" class="error-messagebi"></div>
+			<div id="successMessage" class="success-messagebi"></div>
+
+			<form class="login-formbi" id="loginForm">
+				<div class="form-groupbi">
+					<label for="username">Emri i pÃ«rdoruesit</label>
+					<input
+						type="text"
+						id="username"
+						name="username"
+						placeholder="Shkruani emrin e pÃ«rdoruesit"
+						required
+						autocomplete="username">
+				</div>
+
+				<div class="form-groupbi">
+					<label for="password">FjalÃ«kalimi</label>
+					<input
+						type="password"
+						id="password"
+						name="password"
+						placeholder="Shkruani fjalÃ«kalimin"
+						required
+						autocomplete="current-password">
+				</div>
+
+				<div class="remember-forgotbi">
+					<label>
+						<input type="checkbox" id="rememberMe" name="rememberMe">
+						<span>MÃ« mbaje mend</span>
+					</label>
+					<a href="forgot.html">Harrova fjalÃ«kalimin?</a>
+				</div>
+
+				<button type="submit" class="login-buttonbi">KyÃ§u</button>
+			</form>
+
+			
+
+			<div class="login-footerbi">
+				<p>Nuk ke llogari? <a href="apliko.html">Apliko tani</a></p>
+			</div>
+		</div>
+	</div>
+	</main>
+
+	<footer class="footerbi">
+		<div class="footer-contentbi">
+			<div class="footer-sectionbi">
+				<h4>Universiteti i Vushtrris</h4>
+				<p>Institucioni i shÃ«rbimit publik i arsimit tÃ« lartÃ« dhe kÃ«rkimit shkencor.</p>
+			</div>
+			<div class="footer-sectionbi">
+				<h4>Linqet e shpejta</h4>
+				<ul>
+					<li><a href="web1.html">Kryefaqja</a></li>
+					<li><a href="ne.html">Rreth nesh</a></li>
+					<li><a href="departamentet.html">Departamentet</a></li>
+					<li><a href="stafi.html">Stafi</a></li>
+				</ul>
+			</div>
+			<div class="footer-sectionbi">
+				<h4>TÃ« tjerÃ«</h4>
+				<ul>
+					<li><a href="projektet.html">Projektet</a></li>
+					<li><a href="apliko.html">Apliko</a></li>
+					<li><a href="lajmet.html">Lajmet</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			</div>
+			<div class="footer-sectionbi">
+				<h4>Kontakti</h4>
+				<p>ðŸ“§ info@universiteti.com</p>
+				<p>ðŸ“ž +383 45 583 000</p>
+				<p>ðŸ“ Vushtrri, KosovÃ«</p>
+			</div>
+		</div>
+		<div class="footer-bottombi">
+			<p>&copy; 2024 Universiteti i Vushtrris. TÃ« gjitha tÃ« drejtat e rezervuara.</p>
+		</div>
+	</footer>
+
+	<script src="../js/login.js"></script>
+	<script src="../js/nav.js"></script>
+</body>
+</html>
+
