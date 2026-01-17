@@ -41,7 +41,7 @@ Ky projekt është një sistem i plotë për menaxhimin e universitetit me këto
 - **Ruajtja e të Dhënave**: JSON (simulim i ruajtjes lokale)
 - **Dizajni**: CSS i personalizuar me animacione dhe tranzicione
 - **Ikonat & Asetet**: Grafika SVG dhe optimizim imazhesh
-
+- **IDE**: WebStorm (JetBrains)
 ---
 
 ## 📚 Burimet e Të Mësuarit
