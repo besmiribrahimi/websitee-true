@@ -282,8 +282,8 @@ Janë **gjeneruar duke përdorur AI (Inteligjencën Artificiale)** për qëllime
 
 Kontributet janë të mirëpritura! Mos ngurroni të:
 1. Bëni fork të depozitorit
-2. Krijoni degën tuaj të veçorisë (`git checkout -b feature/VeçoriaFamtaze`)
-3. Konfirmoni ndryshimet tuaja (`git commit -m 'Shtoj ndonjë VeçorieFamtaze'`)
+2. Krijoni degën tuaj të veçorisë (`git checkout -b feature/emails.txt`)
+3. Konfirmoni ndryshimet tuaja (`git commit -m 'Shtoj ndonjë mail'`)
 4. Shtyjeni në degën (`git push origin feature/VeçoriaFamtaze`)
 5. Hapni një Pull Request
 
@@ -299,7 +299,7 @@ Ky projekt është licencuar nën licencën MIT - shikoni skedarin LICENSE për 
 
 **Besmir Ibrahimi**
 - Email: besmiribr77p@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@besmiribrahimi](https://github.com/yourusername)
 
 ---
 
