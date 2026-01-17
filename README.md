@@ -324,7 +324,7 @@ Ky projekt është licencuar nën licencën MIT - shikoni skedarin LICENSE për 
 
 ## 📞 Mbështetje & Kontakti
 
-Për mbështetje, pyetje ose sugjerime, ju lutemi kontaktoni: **besmiribr77p@gmail.com**
+Për mbështetje, pyetje ose sugjerime, ju lutemi kontaktoni: **besmiriibr77p@gmail.com**
 
 ---
 
