@@ -4,7 +4,7 @@ Një aplikacion web modern dhe interaktiv për menaxhimin e universitetit, ndër
 
 ![Statusi](https://img.shields.io/badge/Statusi-Ne%20Zhvillim-blue)
 ![Licence](https://img.shields.io/badge/Licence-MIT-green)
-![Versioni](https://img.shields.io/badge/Versioni-0.1.0-orange)
+![Versioni](https://img.shields.io/badge/Versioni-0.3.3-orange)
 
 ---
 
