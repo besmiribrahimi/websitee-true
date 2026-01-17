@@ -1,7 +1,0 @@
-[build]
-  publish = "website"  # folderi ku ndodhen HTML, CSS, JS
-
-[[redirects]]
-  from = "/"
-  to = "/html/home.html"
-  status = 200
