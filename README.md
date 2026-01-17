@@ -4,7 +4,7 @@ Një aplikacion web modern dhe interaktiv për menaxhimin e universitetit, ndër
 
 ![Statusi](https://img.shields.io/badge/Statusi-Ne%20Zhvillim-blue)
 ![Licence](https://img.shields.io/badge/Licence-MIT-green)
-![Versioni](https://img.shields.io/badge/Versioni-1.0.0-orange)
+![Versioni](https://img.shields.io/badge/Versioni-0.1.0-orange)
 
 ---
 
@@ -203,7 +203,7 @@ web/
 
 1. Klononi depozitorin
 ```bash
-git clone https://github.com/yourusername/university-management-system.git
+git clone https://github.com/besmiribrahimi/websitee-true
 cd university-management-system
 ```
 
@@ -299,7 +299,7 @@ Ky projekt është licencuar nën licencën MIT - shikoni skedarin LICENSE për 
 
 **Besmir Ibrahimi**
 - Email: besmiribr77p@gmail.com
-- GitHub: [@besmiribrahimi](https://github.com/yourusername)
+- GitHub: [@besmiribrahimi](https://github.com/besmiribrahimi)
 
 ---
 
