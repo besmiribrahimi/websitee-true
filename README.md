@@ -205,7 +205,7 @@ web/
 1. Klononi depozitorin
 ```bash
 git clone https://github.com:besmiribrahimi/websitee-true.git
-cd university-management-system
+cd websitee-true
 ```
 
 2. Hapeni në browser
